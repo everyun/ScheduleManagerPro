@@ -16,6 +16,8 @@ namespace ScheduleManagerPro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new login());
+            Application.Run(new reg());
             Application.Run(new Form1());
         }
     }

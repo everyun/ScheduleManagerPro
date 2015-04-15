@@ -24,8 +24,8 @@ namespace ScheduleManagerPro
 
         private void button2_Click(object sender, EventArgs e)
         {
-            login.ActiveForm.Show();
-            this.Hide();
+            this.Close();
+            new login().Show();
         }
     }
 }

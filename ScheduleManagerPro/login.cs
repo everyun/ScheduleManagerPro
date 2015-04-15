@@ -24,9 +24,9 @@ namespace ScheduleManagerPro
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new reg().Show();
+            this.Close();
+            new Form1().Show();
             linkLabel1.LinkVisited = true;
-            this.Hide();
         }
     }
 }
